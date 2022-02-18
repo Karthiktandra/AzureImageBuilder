@@ -37,7 +37,7 @@
                 "type": "PowerShell",
                 "name": "HardenVM",
                 "runElevated": false,
-                "scriptUri": "https://aibsatest.blob.core.windows.net/aibblob?sp=racw&st=2022-02-16T17:12:17Z&se=2022-02-17T01:12:17Z&sv=2020-08-04&sr=c&sig=xdinoW%2FzgNAG3G7YEFKQyJfeL6gNonERJBWu2qTSQIs%3D"
+                "scriptUri": "https://aibblob.blob.core.windows.net/blob/aib.ps1"
             }
           
         ],
