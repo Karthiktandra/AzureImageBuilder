@@ -33,13 +33,8 @@
             
         },
         "customize": [
+           
             {
-                "type": "PowerShell",
-                "name": "HardenVM",
-                "runElevated": false,
-                "scriptUri": "https://aibblob.blob.core.windows.net/blob/aib.ps1"
-            }
-              {
                 "type": "PowerShell",
                 "name": "CreateBuildPath",
                 "runElevated": false,
@@ -49,6 +44,12 @@
                 "type": "WindowsRestart",
                 "restartCheckCommand": "echo Azure-Image-Builder-Restarted-the-VM  > c:\\buildArtifacts\\azureImageBuilderRestart.txt",
                 "restartTimeout": "5m"
+            },
+             {
+                "type": "PowerShell",
+                "name": "HardenVM",
+                "runElevated": false,
+                "scriptUri": "https://aibblob.blob.core.windows.net/blob/aib.ps1"
             },
             {
                 "type": "File",
